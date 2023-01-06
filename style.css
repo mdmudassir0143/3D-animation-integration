@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    max-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+iframe {
+    width: 100%;
+    margin-right: auto;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    right: 0;
+}
+
+h1 {
+    font-family: 'Playfair Display';
+    font-size: 3rem;
+    margin-top: 2em;
+    margin-bottom: .3em;
+    color: #dfdef5;
+    text-shadow: #7f7ade 2px 2px 10px;
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 0;
+    color: #dfdef5;
+}
+
+h1,p {
+    text-align: center;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    
+}
+
+li,a,button{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #dfdef5;;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    display: flex;
+    
+}
+.logo i{
+    cursor: pointer;
+    color:#dfdef5;
+    font-size: 40px;
+    text-shadow: #7f7ade 3px 3px 5px;
+    margin-right: 5px;
+}
+.logo span{
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: #7f7ade 3px 3px 10px;
+    color:#dfdef5;
+}
+.nav_link{
+    list-style: none;
+    cursor: pointer;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    -webkit-transition: all .6s ease;
+}
+button{
+    padding: 7px 18px;
+    background-color: #dfdef5;
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+    box-shadow: #7f7ade 5px 5px 5px;
+    border-radius: 50px;
+    cursor: pointer;
+}
